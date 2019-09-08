@@ -23,8 +23,8 @@ func main() {
 	}
 	oauthConfig = &oauth2.Config{
 		RedirectURL:  "http://localhost:8080/callback",
-		ClientID:     "34a8b658744a7f190a03765149bbcf2282161add",
-		ClientSecret: "d0736bffee7d2be41f2f8f277a8a01b944912b4d",
+		ClientID:     "--",
+		ClientSecret: "--",
 		Scopes:       []string{},
 		Endpoint:     ep,
 	}
