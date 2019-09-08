@@ -91,6 +91,6 @@ func basecampGET(url, token string) *http.Request {
 	}
 	req.Header.Add("Authorization", "Bearer "+token)
 	req.Header.Add("Content-Type", "application/json")
-	req.Header.Add("User-Agent", "ProadInterface (christian.hovenbitzer@selinka-schmitz.de)")
+	req.Header.Add("User-Agent", "ProadInterface (-.-@selinka-schmitz.de)")
 	return req
 }
